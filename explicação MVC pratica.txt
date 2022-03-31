@@ -1,0 +1,13 @@
+MVC => MODEL, VIEW, CONTROLLER
+
+-> MODEL   
+    -> Contém regras de negócios (pasta models)
+-> VIEW 
+    -> No caso dessa aplicação, a view seria o postman onde testa as rotas
+-> CONTROLLER   
+    -> faz a interface entre o modelo e o banco de dados (pasta controllers)
+
+
+-> Services
+    -> A pasta services serve para ficar entre models e controllers
+    -> Centraliza os metodos de conexão com banco de dados que são comuns entre os modelos
